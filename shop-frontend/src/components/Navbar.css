@@ -1,0 +1,127 @@
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(6, 9, 17, 0.82);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--border);
+}
+
+.nav__inner {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  height: 72px;
+}
+
+.nav__logo {
+  font-family: var(--font-mono);
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--text-primary);
+  flex-shrink: 0;
+}
+
+.nav__logo-dot {
+  color: var(--neon-cyan);
+  text-shadow: 0 0 12px var(--neon-cyan);
+}
+
+.nav__links {
+  display: flex;
+  gap: 28px;
+  flex: 1;
+}
+
+.nav__links a {
+  font-size: 14.5px;
+  color: var(--text-secondary);
+  transition: color 0.15s ease;
+}
+
+.nav__links a:hover {
+  color: var(--neon-cyan);
+}
+
+.nav__actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.nav__search {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 8px 14px;
+  color: var(--text-muted);
+  transition: border-color 0.15s ease;
+}
+
+.nav__search:focus-within {
+  border-color: var(--neon-cyan);
+  color: var(--neon-cyan);
+}
+
+.nav__search input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-size: 14px;
+  width: 190px;
+}
+
+.nav__search input::placeholder {
+  color: var(--text-muted);
+}
+
+.nav__cart {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+  background: var(--bg-elevated);
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+.nav__cart:hover {
+  border-color: var(--neon-cyan);
+  color: var(--neon-cyan);
+}
+
+.nav__cart-badge {
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 4px;
+  border-radius: 999px;
+  background: var(--neon-violet);
+  color: #fff;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 860px) {
+  .nav__links {
+    display: none;
+  }
+  .nav__search input {
+    width: 120px;
+  }
+}

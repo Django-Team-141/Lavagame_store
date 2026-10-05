@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b1018"/><stop offset="1" stop-color="#141022"/></linearGradient><linearGradient id="gl" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#ffb84d"/><stop offset="1" stop-color="#ff4d6d"/></linearGradient><filter id="shadow"><feGaussianBlur stdDeviation="18"/></filter></defs>
+<rect width="1000" height="650" rx="30" fill="url(#bg)"/>
+<ellipse cx="500" cy="545" rx="350" ry="45" fill="#ffb84d" opacity=".12" filter="url(#shadow)"/>
+<g><path d="M500 110c-145 0-220 105-205 250 13 125 92 205 205 205s192-80 205-205c15-145-60-250-205-250z" fill="#101822" stroke="#ffb84d" stroke-width="7"/><path d="M500 115v175" stroke="#ff4d6d" stroke-width="7"/><rect x="485" y="155" width="30" height="85" rx="15" fill="#ffb84d" opacity=".8"/><path d="M315 335c45 40 115 62 185 62s140-22 185-62" fill="none" stroke="#fff" opacity=".08" stroke-width="6"/></g>
+<text x="55" y="72" fill="#ffb84d" font-family="Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="3">LAVA / GAME</text>
+<text x="55" y="605" fill="#eef4ff" font-family="Arial,sans-serif" font-size="25" font-weight="700">DEEPCOOL</text>
+<text x="55" y="635" fill="#7e8b9c" font-family="Arial,sans-serif" font-size="16">GAMING MOUSE</text>
+</svg>

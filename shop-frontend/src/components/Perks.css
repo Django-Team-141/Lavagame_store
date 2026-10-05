@@ -1,0 +1,31 @@
+.perks {
+  padding: 48px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.perks__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+}
+
+.perks__item {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+}
+
+.perks__icon {
+  font-size: 22px;
+}
+
+.perks__item h3 {
+  font-size: 14.5px;
+  margin: 0 0 4px;
+}
+
+.perks__item p {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin: 0;
+}

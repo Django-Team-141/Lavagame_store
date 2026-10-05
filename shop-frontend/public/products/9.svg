@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b1018"/><stop offset="1" stop-color="#141022"/></linearGradient><linearGradient id="gl" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#ff4d6d"/><stop offset="1" stop-color="#7c3cff"/></linearGradient><filter id="shadow"><feGaussianBlur stdDeviation="18"/></filter></defs>
+<rect width="1000" height="650" rx="30" fill="url(#bg)"/>
+<ellipse cx="500" cy="545" rx="350" ry="45" fill="#ff4d6d" opacity=".12" filter="url(#shadow)"/>
+<g><rect x="105" y="145" width="790" height="350" rx="28" fill="#111923" stroke="#ff4d6d" stroke-width="6"/><rect x="135" y="180" width="70" height="270" rx="10" fill="#1c2a37"/><circle cx="365" cy="320" r="108" fill="#080c12" stroke="#7c3cff" stroke-width="10"/><circle cx="365" cy="320" r="42" fill="#182532" stroke="#ff4d6d" stroke-width="7"/><circle cx="650" cy="320" r="108" fill="#080c12" stroke="#ff4d6d" stroke-width="10"/><circle cx="650" cy="320" r="42" fill="#182532" stroke="#7c3cff" stroke-width="7"/><rect x="820" y="190" width="42" height="260" fill="#273544"/><path d="M155 475h680" stroke="#fff" opacity=".08" stroke-width="4"/></g>
+<text x="55" y="72" fill="#ff4d6d" font-family="Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="3">LAVA / GAME</text>
+<text x="55" y="605" fill="#eef4ff" font-family="Arial,sans-serif" font-size="25" font-weight="700">LOGITECH</text>
+<text x="55" y="635" fill="#7e8b9c" font-family="Arial,sans-serif" font-size="16">GRAPHICS CARD</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b1018"/><stop offset="1" stop-color="#141022"/></linearGradient><linearGradient id="gl" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#44e6a7"/><stop offset="1" stop-color="#1583ff"/></linearGradient><filter id="shadow"><feGaussianBlur stdDeviation="18"/></filter></defs>
+<rect width="1000" height="650" rx="30" fill="url(#bg)"/>
+<ellipse cx="500" cy="545" rx="350" ry="45" fill="#44e6a7" opacity=".12" filter="url(#shadow)"/>
+<g><rect x="175" y="125" width="650" height="390" rx="28" fill="#111821" stroke="#44e6a7" stroke-width="6"/><rect x="215" y="165" width="570" height="310" rx="18" fill="#090d13"/><circle cx="500" cy="320" r="105" fill="#111b25" stroke="#1583ff" stroke-width="8"/><circle cx="500" cy="320" r="28" fill="#44e6a7"/><path d="M500 215v210M395 320h210" stroke="#fff" opacity=".08"/><rect x="245" y="435" width="90" height="8" rx="4" fill="#44e6a7"/></g>
+<text x="55" y="72" fill="#44e6a7" font-family="Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="3">LAVA / GAME</text>
+<text x="55" y="605" fill="#eef4ff" font-family="Arial,sans-serif" font-size="25" font-weight="700">LOGITECH</text>
+<text x="55" y="635" fill="#7e8b9c" font-family="Arial,sans-serif" font-size="16">STORAGE</text>
+</svg>

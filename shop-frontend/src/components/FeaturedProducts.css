@@ -1,0 +1,10 @@
+.feat {
+  padding: 64px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.feat__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 18px;
+}

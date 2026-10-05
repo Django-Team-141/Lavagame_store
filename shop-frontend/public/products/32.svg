@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b1018"/><stop offset="1" stop-color="#141022"/></linearGradient><linearGradient id="gl" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#8cff66"/><stop offset="1" stop-color="#3d7cff"/></linearGradient><filter id="shadow"><feGaussianBlur stdDeviation="18"/></filter></defs>
+<rect width="1000" height="650" rx="30" fill="url(#bg)"/>
+<ellipse cx="500" cy="545" rx="350" ry="45" fill="#8cff66" opacity=".12" filter="url(#shadow)"/>
+<g><path d="M250 390V305c0-165 110-245 250-245s250 80 250 245v85" fill="none" stroke="#8cff66" stroke-width="44" stroke-linecap="round"/><rect x="195" y="345" width="125" height="180" rx="42" fill="#111a24" stroke="#3d7cff" stroke-width="7"/><rect x="680" y="345" width="125" height="180" rx="42" fill="#111a24" stroke="#8cff66" stroke-width="7"/><path d="M500 80v70" stroke="#3d7cff" stroke-width="8"/></g>
+<text x="55" y="72" fill="#8cff66" font-family="Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="3">LAVA / GAME</text>
+<text x="55" y="605" fill="#eef4ff" font-family="Arial,sans-serif" font-size="25" font-weight="700">AOC</text>
+<text x="55" y="635" fill="#7e8b9c" font-family="Arial,sans-serif" font-size="16">GAMING HEADSET</text>
+</svg>
